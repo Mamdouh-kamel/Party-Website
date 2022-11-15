@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egyptian Party</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header id="home" class="home d-flex position-relative">
+      <div id="nav-bg" class="nav-bg">
+        <a class="close-btn" onclick="closeNav()">×</a>
+        <a href="#home">Home</a>
+        <a href="#singers">Details</a>
+        <a href="#date">Duration</a>
+        <a href="#contact">Contact</a>
+        
+      </div>
+      <div class="position-absolute" style="height: 100%; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M6.49,-21.19 C11.57,75.50 29.62,53.80 0.28,175.17 L0.00,150.00 L-10.44,-14.28 Z"
+            style="stroke: none; fill: #470709"
+          ></path>
+        </svg>
+      </div>
+      
+
+      <div class="nav-icon text-white position-absolute">
+        <li id="nav-btn" class="fa fa-bars" onclick="openNav()"></li>
+      </div>
+
+      <div
+        id="home-content"
+        class="h-100 w-100 d-flex justify-content-center align-items-center"
+      >
+        <div class="content text-center text-white">
+          <h1 class="welcome-msg">Egyptian Party</h1>
+          <p>Let's have Fun</p>
+        </div>
+      </div>
+    </header>
+    <section id="singers" class="singers">
+      <div class="container">
+        <div class="col-md-8 m-auto singer-content text-center text-white">
+          <h3 class="singer-num">Singer one</h3>
+          <div class="bg-dark bg-opacity-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            quaerat? Hic eius asperiores et ut molestias earum vitae, nostrum
+            numquam minus aliquam quos placeat excepturi neque atque voluptas,
+            sed minima ex iste cumque laborum nesciunt, non tempora eligendi
+            commodi. Repudiandae ad ea odio provident aliquam ex aperiam
+            laudantium sequi perspiciatis. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Nisi, quas!
+          </div>
+          <h3 class="singer-num">Singer two</h3>
+          <div class="bg-dark bg-opacity-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            quaerat? Hic eius asperiores et ut molestias earum vitae, nostrum
+            numquam minus aliquam quos placeat excepturi neque atque voluptas,
+            sed minima ex iste cumque laborum nesciunt, non tempora eligendi
+            commodi. Repudiandae ad ea odio provident aliquam ex aperiam
+            laudantium sequi perspiciatis. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Nisi, quas!
+          </div>
+          <h3 class="singer-num">Singer three</h3>
+          <div class="bg-dark bg-opacity-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            quaerat? Hic eius asperiores et ut molestias earum vitae, nostrum
+            numquam minus aliquam quos placeat excepturi neque atque voluptas,
+            sed minima ex iste cumque laborum nesciunt, non tempora eligendi
+            commodi. Repudiandae ad ea odio provident aliquam ex aperiam
+            laudantium sequi perspiciatis. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Nisi, quas!
+          </div>
+          <h3 class="singer-num">Singer four</h3>
+          <div class="bg-dark bg-opacity-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            quaerat? Hic eius asperiores et ut molestias earum vitae, nostrum
+            numquam minus aliquam quos placeat excepturi neque atque voluptas,
+            sed minima ex iste cumque laborum nesciunt, non tempora eligendi
+            commodi. Repudiandae ad ea odio provident aliquam ex aperiam
+            laudantium sequi perspiciatis. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Nisi, quas!
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="date"
+      class="date d-flex justify-content-center align-items-center"
+    >
+      <div class="cubic" id="days"></div>
+      <div class="cubic" id="hours"></div>
+      <div class="cubic" id="minutes"></div>
+      <div class="cubic" id="seconds"></div>
+    </section>
+    <footer id="contact" class="footer vh-100 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-black-50">
+            <div class="title my-5">
+              <h2 class="text-black fw-bold">JOIN US</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.lorem</p>
+            </div>
+            <div class="contact-info my-4">
+              <h3 class="text-black">CONTACT INFO</h3>
+              <p class="text-center">
+                Why you should hire me writeup Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+              </p>
+            </div>
+            <div class="details text-center mt-5 lh-lg">
+              <p>
+                <i class="fa fa-map-marker me-3"></i> New Street 22545, Nexa
+                Road, New York City, USA
+              </p>
+              <p class="e-mail text-danger text-decoration-underline">
+                <i class="fa fa-envelope text-black-50 me-3"></i
+                >hello@uigrid.com
+              </p>
+              <p><i class="fa fa-phone me-3"></i> 001-000-000-000</p>
+            </div>
+            <div class="icons text-center mt-5">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google-plus"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-behance"></i>
+              <i class="fa-brands fa-dribbble"></i>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form class="d-flex flex-column mt-5 pt-5 text-center">
+              <input
+                class="form-control form-control-lg"
+                type="text"
+                placeholder="Enter Name"
+              />
+              <input
+                class="form-control form-control-lg"
+                type="email"
+                placeholder="Enter Email"
+              />
+              <textarea
+                class="form-control form-control-lg"
+                name=""
+                id=""
+                cols="30"
+                rows="7"
+                placeholder="Enter Message"
+              ></textarea>
+              <p><span id="character">100</span> Character Remaining</p>
+              <button
+                class="bg-danger text-white border-0 w-auto p-2"
+                type="submit"
+              >
+                SEND MESSAGE
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

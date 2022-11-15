@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ------------------------------------------------------home------------------------------------------------------ */
+/* --------------------nav--------------------- */
+.nav-icon{
+    top: 55%;
+    left: 50px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.nav-bg{
+    position: relative;
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #470709;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-bg a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    margin: 12px 0px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+.nav-bg a:hover{
+    color: #D62E33;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+}
+#nav-btn{
+    color: #470709;
+
+}
+#home-content{
+    transition: 0.5s;
+}
+
+/* --------------------home-------------------- */
+.home{
+    width: 100%;
+    height: 105vh;
+    background: linear-gradient(0deg, rgba(214, 46, 51, 0.6), rgba(228, 42, 42, 0.5)), url(../img/events-heavenly-header.jpg) ;
+    background-size: cover;
+}
+
+/* ------------------------------------------------------singer------------------------------------------------------ */
+.singers{
+    height: auto;
+    padding: 100px 0px;
+
+}
+.singer-content{
+    height: 100%;
+    width: 60%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.singer-content div{
+    display: none;
+}
+.singer-num{
+    padding: 5px 0px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------date------------------------------------------------------ */
+.date{
+    height: 55vh;
+    background: linear-gradient(0deg, rgba(214, 46, 51, 0.6), rgba(228, 42, 42, 0.5)), url(../img/invitation-2508607__340.jpg) ;
+    background-size: 100% 100%;
+}
+.cubic{
+    width: 20%;
+    margin: 0px 15px;
+    padding: 60px 0px;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    border: 1px solid #fff;
+
+}
+/* ------------------------------------------------------foot------------------------------------------------------ */
+/* --------------col 1-------------- */
+.icons i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px 5px;
+}   
+.icons i:hover{
+    background-color: #D62E33;
+    color: #fff;
+    border: 1px solid #D62E33;
+}
+/* --------------col 2-------------- */
+.form-control{
+    margin: 10px 0px;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+.form-control:focus{
+    border: 1px solid #D62E33;
+}
+.e-mail{
+    cursor: pointer;
+}
+span{
+    font-size: 20px;
+    color: #D62E33;
+}
+#contact button:active{
+    transform: scale(.97)
+}
